@@ -8,4 +8,7 @@ def main(n):
     Returns:
         float: the value of the expression
     """
-    return
+    x=((2+n)/3)
+    x1=pow(x,2)
+    return x1
+print(main(4))
