@@ -9,4 +9,9 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    natija=pow(y,3)
+    natija1=(pow(x,2)*y)
+    natija2=natija+natija1
+    natija3=natija2*2
+    return natija3
+print(main(2,4))
